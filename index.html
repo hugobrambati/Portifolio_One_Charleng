@@ -7,16 +7,15 @@
   <title>Portifolio Hugo Brambati</title>
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script src="menu.js" defer></script>
 </head>
 
 <body>
   <header>
     <div class="interface">
       <div class="logo">
-
         <a href="#">
           <img src="assets/img/logo.png" alt="Logo Hugo Brambati">
-          <!-- <h1 class="logo_titulo">Hugo Brambati</h1> -->
         </a>
       </div><!--logo-->
 
@@ -36,6 +35,35 @@
           <button>Contato</button>
         </a>
       </div><!--btn_contato-->
+
+      <div class="btn_abrir_menu" id="btn_menu">
+        <i class="fa-solid fa-bars"></i>
+      </div><!--Fim btn_abrir-->
+
+      <div class="menu_mobile" id="menu_mobile">
+        <div class="btn_fechar">
+          <i class="fa-solid fa-x"></i>
+        </div><!--btn_fechar-->
+      
+
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Hobbies</a></li>
+          <li><a href="#">Skill</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Formações</a></li>
+          <li><a href="#">Projetos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+      
+    </div><!--fim menu_mobile--> 
+
+      <div class="overlay_menu" id="overlay_menu">
+
+      </div><!--Fim overlay_menu-->
+
     </div><!--interface-->
   </header>
 
