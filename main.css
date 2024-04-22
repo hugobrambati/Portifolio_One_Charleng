@@ -336,6 +336,7 @@ section.sobre{
 .sobre .sobre_img img{
   border: none;
   border-radius: 15px;
+
 }
 
 .sobre .sobre_texto{
@@ -435,6 +436,7 @@ section.formacao .flex{
   color: var(--cor_branca);
   margin: 20px 0;
   text-align: center;
+ 
 }
 
 .btn_curriculo button{
@@ -479,12 +481,13 @@ section.portifolio .flex{
 .numero_secreto{
   margin-top: 40px 0;
   align-items: center;
+  width: 400px;
 }
 
 .btn_demo{
   display: flex;
   text-align: center;
- 
+  justify-content: center;
 }
 
 section.portifolio h2{
@@ -625,6 +628,7 @@ footer .linha_footer2 a{
 
   .perfil .img_perfil img{
     width: 100%;
+    border-radius: 50%;
   }
   
   .perfil .txt_perfil h1{
@@ -635,6 +639,19 @@ footer .linha_footer2 a{
 
   section.hobbies{
     padding: 50px 8%;
+  }
+
+  /*sobre*/
+
+  .sobre .sobre_img img{
+    width: 100%;
+    border-radius: 50%;
+   
+  }
+
+  /*portifolio*/
+  .numero_secreto{
+    width: 300px;
   }
 
   /* Footer */
