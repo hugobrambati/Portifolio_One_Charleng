@@ -464,6 +464,7 @@ section.portifolio{
 }
 
 section.portifolio .flex{
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 40px;
 }
@@ -472,6 +473,7 @@ section.portifolio .flex{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin: 40px;
 }
 
 .numero_secreto{
