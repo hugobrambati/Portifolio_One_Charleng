@@ -602,6 +602,14 @@ footer .linha_footer2 a{
   font-size: 1.5em;
 }
 
+.btn_topo{
+  color: var(--cor_principal);
+  font-size: 44px;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
 
 @media screen and (max-width:1020px){
   /* classes gerais */
@@ -669,5 +677,12 @@ footer .linha_footer2 a{
 
   .btn_abrir_menu{
     display: block;
+  }
+
+  .btn_topo{
+    font-size: 25px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
   }
 }
